@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
 export default function SideMenu(props) {
-    console.log("props", props)
     return (
         <div>
             <h1 className="my-4">{props.appName}</h1>
